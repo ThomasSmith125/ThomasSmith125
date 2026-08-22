@@ -27,8 +27,7 @@ def main() -> None:
         week = (parsed.date() - first_sunday).days // 7
         weekday = (parsed.weekday() + 1) % 7
         x, y = 48 + week * 15, 52 + weekday * 15
-        delay = min(0.9, 0.08 + (week + weekday) * 0.012)
-        cells.append(f'<rect x="{x}" y="{y}" width="11" height="11" rx="2" fill="{PALETTE[level(day["count"])]}" opacity="0"><title>{day["date"]}: {day["count"]} contributions</title><animate attributeName="opacity" values="0;0;1" keyTimes="0;{delay:.2f};{min(delay+.13,.99):.2f}" dur="1.5s" fill="freeze"/></rect>')
+        cells.append(f'<rect x="{x}" y="{y}" width="11" height="11" rx="2" fill="{PALETTE[level(day["count"])]}"><title>{day["date"]}: {day["count"]} contributions</title></rect>')
     legend = "".join(f'<rect x="{735 + i * 16}" y="177" width="11" height="11" rx="2" fill="{color}"/>' for i, color in enumerate(PALETTE))
     OUT.parent.mkdir(exist_ok=True)
     OUT.write_text(f'''<svg xmlns="http://www.w3.org/2000/svg" width="860" height="220" viewBox="0 0 860 220" role="img" aria-label="{total} GitHub contributions in the last year">

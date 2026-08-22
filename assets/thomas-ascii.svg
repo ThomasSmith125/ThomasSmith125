@@ -2,161 +2,83 @@
   <style>.ascii { font: 8px/8px 'SFMono-Regular', Consolas, monospace; letter-spacing: .1px; fill: #80d6a0; }</style>
   <rect width="370" height="390" rx="12" fill="#15191d" stroke="#30363d" />
   <text x="18" y="22" fill="#55d68a" style="font: 12px Consolas, monospace">portrait.ascii</text>
-  <g opacity="0" transform="translate(-12 0)">
+  <g>
       <text x="12" y="42" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.120;0.210" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;0.120;0.210" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="50" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@=` .*@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.165;0.255" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;0.165;0.255" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="58" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@%       @@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.210;0.300" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;0.210;0.300" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="66" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@         @@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.255;0.345" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;0.255;0.345" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="74" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@:          @@@@@@@@@@@@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.300;0.390" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;0.300;0.390" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="82" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@           @@@@@@@@@@@@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.345;0.435" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;0.345;0.435" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="90" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@+  @@#===`  %@@@@@@@@@@@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.390;0.480" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;0.390;0.480" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="98" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@= *@@@%%#+. *@@@@@@@@@@@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.435;0.525" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;0.435;0.525" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="106" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@* #@@##%#=: #@@@@@@@@@@@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.480;0.570" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;0.480;0.570" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="114" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@% @@###*`:+ %@@@@@@@@@@@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.525;0.615" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;0.525;0.615" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="122" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@ #.  *   + @@@@@@@@@@@@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.570;0.660" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;0.570;0.660" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="130" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@ *` :#   = %@@@@@@@@@@@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.615;0.705" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;0.615;0.705" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="138" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@#.@%+%+ *+* `@@@@@@@@@@@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.660;0.750" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;0.660;0.750" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="146" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@.#%%@%.+=+ -@@@@@@@@@@@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.705;0.795" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;0.705;0.795" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="154" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@-+#%*: -:: @@@@@@@@@@@@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.750;0.840" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;0.750;0.840" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="162" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@%-##*` .:`*@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.795;0.885" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;0.795;0.885" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="170" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@=*+-- .`.@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.840;0.930" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;0.840;0.930" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="178" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@#:##..: :@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.885;0.975" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;0.885;0.975" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="186" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@ -%=-  +@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.930;0.990" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;0.930;0.990" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="194" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@  --.  +@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.975;0.990" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;0.975;0.990" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="202" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@#.     . +@@@@@@@@@@@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;1.020;0.990" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;1.020;0.990" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="210" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@# #%=   .:  @@@@@@@@@@@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;1.065;0.990" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;1.065;0.990" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="218" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@-#  @##: ``. .  -@@@@@@@@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;1.110;0.990" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;1.110;0.990" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="226" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@@@@@. * -@#*-:=:  :.: :@@@@@@@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;1.155;0.990" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;1.155;0.990" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="234" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@@@@@ #+ :@%*+##-  -:   *@@@@@@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;1.200;0.990" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;1.200;0.990" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="242" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@@@@+ @:  *@%%@=  ==  :*-:%@@@@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;1.245;0.990" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;1.245;0.990" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="250" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@@+-+ %.          @` :#+-:.+@@@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;1.290;0.990" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;1.290;0.990" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="258" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@-=++-%=         *=  #*==-: =@@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;1.335;0.990" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;1.335;0.990" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="266" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@--++==@=         @  -*+=--:. @@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;1.380;0.990" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;1.380;0.990" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="274" class="ascii" xml:space="preserve">@@@@@@@@@@@@@#:++=-=@`        `@ .:*=--::. =@@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;1.425;0.990" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;1.425;0.990" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="282" class="ascii" xml:space="preserve">@@@@@@@@@@@@@+-+++`:@`        #  -:+:--`::` @@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;1.470;0.990" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;1.470;0.990" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="290" class="ascii" xml:space="preserve">@@@@@@@@@@@@@=+==+`=@         # --:+.=:`:-` *@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;1.515;0.990" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;1.515;0.990" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="298" class="ascii" xml:space="preserve">@@@@@@@@@@@@@-+==+:=@        :` #:-= +` --` :@@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;1.560;0.990" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;1.560;0.990" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="306" class="ascii" xml:space="preserve">@@@@@@@@@@@@#-+=++:+@        : -#::= *. -:   @@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;1.605;0.990" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;1.605;0.990" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="314" class="ascii" xml:space="preserve">@@@@@@@@@@@@*--==*-*%        . *+::-.#. `- . @@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;1.650;0.990" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;1.650;0.990" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="322" class="ascii" xml:space="preserve">@@@@@@@@@@@@+::-+*=##         `*+::`.#  -= ` *@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;1.695;0.990" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;1.695;0.990" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="330" class="ascii" xml:space="preserve">@@@@@@@@@@@@+-`:=+=#*         -++:`.`*  -: =.:@@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;1.740;0.990" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;1.740;0.990" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="338" class="ascii" xml:space="preserve">@@@@@@@@@@@@+=`:==-#+         ===`..:+  -``*` @@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;1.785;0.990" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;1.785;0.990" dur="2s" fill="freeze" />
-    </g><g opacity="0" transform="translate(-12 0)">
+    </g><g>
       <text x="12" y="346" class="ascii" xml:space="preserve">@@@@@@@@@@@@==:-+=-*-        .+=-.  -+  -.=+  +@@@@@@@@@@@</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;1.830;0.990" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;1.830;0.990" dur="2s" fill="freeze" />
     </g>
 </svg>

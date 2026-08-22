@@ -1,6 +1,6 @@
 <div align="center">
 
-# Thomas Smith
+<h3>Thomas Smith</h3>
 
 *Learning deeply, building thoughtfully, and exploring what technology makes possible.*
 
@@ -13,12 +13,10 @@
 
 <h3><code>thomas@github ~ $ whoami</code></h3>
 
-<table>
-  <tr>
-    <td valign="top"><img src="./assets/thomas-ascii.svg" width="370" alt="ASCII portrait of Thomas Smith" /></td>
-    <td valign="top"><img src="./assets/info-card.svg" width="490" alt="Profile information" /></td>
-  </tr>
-</table>
+<p>
+  <img src="./assets/thomas-ascii.svg" width="370" alt="ASCII portrait of Thomas Smith" />
+  <img src="./assets/info-card.svg" width="490" alt="Profile information" />
+</p>
 
 <br>
 

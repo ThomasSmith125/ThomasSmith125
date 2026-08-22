@@ -20,11 +20,8 @@ def load_portrait(path: Path) -> Image.Image:
 
 def make_row(index: int, chars: str) -> str:
     y = 42 + index * 8
-    delay = 0.12 + index * 0.045
-    return f'''<g opacity="0" transform="translate(-12 0)">
+    return f'''<g>
       <text x="12" y="{y}" class="ascii" xml:space="preserve">{escape(chars)}</text>
-      <animate attributeName="opacity" values="0;0;1" keyTimes="0;{delay:.3f};{min(delay + .09, .99):.3f}" dur="2s" fill="freeze" />
-      <animateTransform attributeName="transform" type="translate" values="-12 0;-12 0;0 0" keyTimes="0;{delay:.3f};{min(delay + .09, .99):.3f}" dur="2s" fill="freeze" />
     </g>'''
 
 
