@@ -7,15 +7,15 @@
 <br>
 
 <!-- thomas@github ~ $ ./contributions.sh -->
-<img src="./assets/contrib-heatmap.svg" width="900" alt="GitHub contribution heatmap" />
+<img src="./assets/contrib-heatmap.svg?v=2" width="900" alt="GitHub contribution heatmap" />
 
 <br><br>
 
 <!-- thomas@github ~ $ whoami -->
 
 <p>
-  <img src="./assets/thomas-ascii.svg" width="400" alt="ASCII portrait of Thomas Smith" />
-  <img src="./assets/info-card.svg" width="500" alt="Profile information" />
+  <img src="./assets/thomas-ascii.svg?v=2" width="400" alt="ASCII portrait of Thomas Smith" />
+  <img src="./assets/info-card.svg?v=2" width="500" alt="Profile information" />
 </p>
 
 <br>
