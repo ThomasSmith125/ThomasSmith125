@@ -1,0 +1,2 @@
+# The daily GitHub Actions workflow only uses Python's standard library.
+# Pillow is used locally only when regenerating the ASCII portrait.

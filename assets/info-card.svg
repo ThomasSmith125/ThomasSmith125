@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="390" viewBox="0 0 490 390" role="img" aria-label="Thomas Smith profile information">
+  <style>
+    .line { font: 15px 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+    .title { font: 600 15px 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
+  </style>
+  <rect width="490" height="390" rx="12" fill="#15191d" stroke="#30363d" />
+  <rect width="490" height="43" rx="12" fill="#20252b" />
+  <rect y="31" width="490" height="12" fill="#20252b" />
+  <circle cx="25" cy="22" r="6" fill="#ff5f57" /><circle cx="45" cy="22" r="6" fill="#febc2e" /><circle cx="65" cy="22" r="6" fill="#28c840" />
+  <text x="245" y="27" text-anchor="middle" fill="#b7c0c9" class="title">thomas@github:~</text>
+  <g opacity="0" transform="translate(-8 0)">
+      <text x="34" y="82" class="line"><tspan fill="#55d68a">name</tspan>  <tspan fill="#e6edf3">Thomas Smith</tspan></text>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.35;0.47" dur="2s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" values="-8 0;-8 0;0 0" keyTimes="0;0.35;0.47" dur="2s" fill="freeze" />
+    </g>
+<g opacity="0" transform="translate(-8 0)">
+      <text x="34" y="118" class="line"><tspan fill="#55d68a">role</tspan>  <tspan fill="#e6edf3">Student &amp; Entrepreneur</tspan></text>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.49;0.61" dur="2s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" values="-8 0;-8 0;0 0" keyTimes="0;0.49;0.61" dur="2s" fill="freeze" />
+    </g>
+<g opacity="0" transform="translate(-8 0)">
+      <text x="34" y="154" class="line"><tspan fill="#55d68a">university</tspan>  <tspan fill="#e6edf3">Université Paris-Saclay · UVSQ</tspan></text>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.63;0.75" dur="2s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" values="-8 0;-8 0;0 0" keyTimes="0;0.63;0.75" dur="2s" fill="freeze" />
+    </g>
+<g opacity="0" transform="translate(-8 0)">
+      <text x="34" y="190" class="line"><tspan fill="#55d68a">location</tspan>  <tspan fill="#e6edf3">Paris, France</tspan></text>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.77;0.89" dur="2s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" values="-8 0;-8 0;0 0" keyTimes="0;0.77;0.89" dur="2s" fill="freeze" />
+    </g>
+
+<g opacity="0" transform="translate(-8 0)">
+      <text x="34" y="262" class="line"><tspan fill="#55d68a">education</tspan>  <tspan fill="#e6edf3">BSc Mathematics &amp; Physics — in progress</tspan></text>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;1.05;1.17" dur="2s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" values="-8 0;-8 0;0 0" keyTimes="0;1.05;1.17" dur="2s" fill="freeze" />
+    </g>
+<g opacity="0" transform="translate(-8 0)">
+      <text x="34" y="298" class="line"><tspan fill="#55d68a">interests</tspan>  <tspan fill="#e6edf3">Artificial Intelligence · Web Development</tspan></text>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;1.19;1.31" dur="2s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" values="-8 0;-8 0;0 0" keyTimes="0;1.19;1.31" dur="2s" fill="freeze" />
+    </g>
+<g opacity="0" transform="translate(-8 0)">
+      <text x="34" y="334" class="line"><tspan fill="#55d68a">&gt;</tspan>          <tspan fill="#e6edf3">Computer Science · Cybersecurity</tspan></text>
+      <animate attributeName="opacity" values="0;0;1" keyTimes="0;1.33;1.4500000000000002" dur="2s" fill="freeze" />
+      <animateTransform attributeName="transform" type="translate" values="-8 0;-8 0;0 0" keyTimes="0;1.33;1.4500000000000002" dur="2s" fill="freeze" />
+    </g>
+  <g opacity="0"><text x="34" y="366" class="line" fill="#55d68a">$ <tspan fill="#8b949e">_</tspan></text><animate attributeName="opacity" values="0;0;1" keyTimes="0;.93;1" dur="2s" fill="freeze" /></g>
+</svg>
