@@ -17,10 +17,10 @@ ROWS = [
 
 
 def row_svg(index: int, key: str, value: str) -> str:
-    y = 82 + index * 36
+    y = 128 + index * 27
     if not key and not value:
         return ""
-    label = f'<tspan fill="#55d68a">{escape(key)}</tspan>  ' if key else '<tspan fill="#55d68a">&gt;</tspan>          '
+    label = f'<tspan fill="#6fe6a0">{escape(key).upper().ljust(12)}</tspan>  ' if key else '<tspan fill="#6fe6a0">//</tspan>          '
     return f'''<g>
       <text x="34" y="{y}" class="line">{label}<tspan fill="#e6edf3">{escape(value)}</tspan></text>
     </g>'''
@@ -29,18 +29,27 @@ def row_svg(index: int, key: str, value: str) -> str:
 def main() -> None:
     OUT.parent.mkdir(exist_ok=True)
     rows = "\n".join(row_svg(i, key, value) for i, (key, value) in enumerate(ROWS))
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="490" height="390" viewBox="0 0 490 390" role="img" aria-label="Thomas Smith profile information">
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400" role="img" aria-label="Thomas Smith profile information">
   <style>
-    .line {{ font: 15px 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }}
-    .title {{ font: 600 15px 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }}
+    .line {{ font: 13px 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }}
+    .title {{ font: 700 14px 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; letter-spacing: 1px; }}
+    .micro {{ font: 10px 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; letter-spacing: 1px; }}
   </style>
-  <rect width="490" height="390" rx="12" fill="#15191d" stroke="#30363d" />
-  <rect width="490" height="43" rx="12" fill="#20252b" />
-  <rect y="31" width="490" height="12" fill="#20252b" />
-  <circle cx="25" cy="22" r="6" fill="#ff5f57" /><circle cx="45" cy="22" r="6" fill="#febc2e" /><circle cx="65" cy="22" r="6" fill="#28c840" />
-  <text x="245" y="27" text-anchor="middle" fill="#b7c0c9" class="title">thomas@github:~</text>
+  <defs><pattern id="grid" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M 18 0 L 0 0 0 18" fill="none" stroke="#24312a" stroke-width=".6" opacity=".55"/></pattern></defs>
+  <path d="M16 2H468L498 32V368L468 398H16L2 384V16Z" fill="#11171a" stroke="#3f7355" stroke-width="1.4" />
+  <path d="M16 11H462L489 38M489 362L462 389H16M11 384V16" fill="none" stroke="#2cc26b" stroke-width="1" opacity=".75" />
+  <rect x="15" y="55" width="470" height="326" fill="url(#grid)" opacity=".58" />
+  <path d="M22 86H478M22 336H478" stroke="#3b6650" stroke-width="1" />
+  <path d="M22 86h88l10 10h91M478 86h-55l-10 10h-78M22 336h72l10-10h100M478 336h-72l-10-10h-90" fill="none" stroke="#5ae48e" stroke-width="1.2" />
+  <text x="24" y="32" fill="#6fe6a0" class="micro">THS // PROFILE_01</text>
+  <text x="476" y="32" text-anchor="end" fill="#899f91" class="micro">UVSQ · PARIS</text>
+  <text x="25" y="73" fill="#e6edf3" class="title">IDENTITY / DATA CARD</text>
+  <text x="475" y="73" text-anchor="end" fill="#6fe6a0" class="micro">ONLINE</text>
   {rows}
-  <g><text x="34" y="366" class="line" fill="#55d68a">$ <tspan fill="#8b949e">_</tspan></text></g>
+  <rect x="24" y="350" width="452" height="29" fill="#17231d" stroke="#3b6650" />
+  <circle cx="43" cy="365" r="5" fill="#54db86"/><circle cx="43" cy="365" r="2" fill="#d9ffe6"/>
+  <text x="58" y="369" fill="#b8c7bc" class="micro">STATUS: BUILDING / LEARNING / EXPLORING</text>
+  <path d="M24 378h78M398 378h78" stroke="#6fe6a0" stroke-width="2"/>
 </svg>'''
     OUT.write_text(svg, encoding="utf-8")
 

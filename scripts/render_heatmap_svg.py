@@ -26,17 +26,22 @@ def main() -> None:
         parsed = datetime.strptime(day["date"], "%Y-%m-%d")
         week = (parsed.date() - first_sunday).days // 7
         weekday = (parsed.weekday() + 1) % 7
-        x, y = 48 + week * 15, 52 + weekday * 15
+        x, y = 66 + week * 15, 65 + weekday * 15
         cells.append(f'<rect x="{x}" y="{y}" width="11" height="11" rx="2" fill="{PALETTE[level(day["count"])]}"><title>{day["date"]}: {day["count"]} contributions</title></rect>')
-    legend = "".join(f'<rect x="{735 + i * 16}" y="177" width="11" height="11" rx="2" fill="{color}"/>' for i, color in enumerate(PALETTE))
+    legend = "".join(f'<rect x="{770 + i * 16}" y="182" width="11" height="11" rx="2" fill="{color}"/>' for i, color in enumerate(PALETTE))
     OUT.parent.mkdir(exist_ok=True)
-    OUT.write_text(f'''<svg xmlns="http://www.w3.org/2000/svg" width="860" height="220" viewBox="0 0 860 220" role="img" aria-label="{total} GitHub contributions in the last year">
-  <rect width="860" height="220" rx="12" fill="#15191d" stroke="#30363d"/>
-  <text x="24" y="29" fill="#e6edf3" style="font: 600 14px -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">{total:,} contributions in the last year</text>
-  <text x="24" y="48" fill="#8b949e" style="font: 12px -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Updated daily from GitHub activity</text>
-  <text x="24" y="70" fill="#8b949e" style="font: 11px -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Sun</text><text x="24" y="100" fill="#8b949e" style="font: 11px -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Tue</text><text x="24" y="130" fill="#8b949e" style="font: 11px -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Thu</text>
+    OUT.write_text(f'''<svg xmlns="http://www.w3.org/2000/svg" width="900" height="210" viewBox="0 0 900 210" role="img" aria-label="{total} GitHub contributions in the last year">
+  <defs><pattern id="grid" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M18 0H0V18" fill="none" stroke="#24372c" stroke-width=".55"/></pattern></defs>
+  <path d="M16 2H868L898 32V178L868 208H16L2 194V16Z" fill="#101719" stroke="#3f7355" stroke-width="1.4"/>
+  <path d="M16 11H862L889 38M889 172L862 199H16M11 194V16" fill="none" stroke="#2cc26b" stroke-width="1" opacity=".8"/>
+  <rect x="16" y="50" width="868" height="118" fill="url(#grid)" opacity=".42"/>
+  <path d="M24 52h82l10 10h96M876 52h-72l-10 10h-88M24 168h90M786 168h90" fill="none" stroke="#60e695" stroke-width="1.1"/>
+  <text x="25" y="32" fill="#6fe6a0" style="font: 10px Consolas, monospace; letter-spacing: 1px">ACTIVITY // 53W</text>
+  <text x="875" y="32" text-anchor="end" fill="#8ba692" style="font: 10px Consolas, monospace; letter-spacing: 1px">LIVE DATA</text>
+  <text x="25" y="78" fill="#8b9e91" style="font: 10px Consolas, monospace">SUN</text><text x="25" y="108" fill="#8b9e91" style="font: 10px Consolas, monospace">TUE</text><text x="25" y="138" fill="#8b9e91" style="font: 10px Consolas, monospace">THU</text>
   {''.join(cells)}
-  <text x="700" y="187" fill="#8b949e" style="font: 11px -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">Less</text>{legend}<text x="821" y="187" fill="#8b949e" style="font: 11px -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">More</text>
+  <text x="24" y="190" fill="#e6edf3" style="font: 600 13px -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">{total:,} contributions / last 12 months</text>
+  <text x="635" y="190" fill="#8b9e91" style="font: 10px Consolas, monospace">LOW</text>{legend}<text x="857" y="190" fill="#8b9e91" style="font: 10px Consolas, monospace">HIGH</text>
 </svg>''', encoding="utf-8")
 
 

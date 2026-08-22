@@ -6,16 +6,16 @@
 
 <br>
 
-<h3><code>thomas@github ~ $ ./contributions.sh</code></h3>
-<img src="./assets/contrib-heatmap.svg" width="860" alt="GitHub contribution heatmap" />
+<!-- thomas@github ~ $ ./contributions.sh -->
+<img src="./assets/contrib-heatmap.svg" width="900" alt="GitHub contribution heatmap" />
 
 <br><br>
 
-<h3><code>thomas@github ~ $ whoami</code></h3>
+<!-- thomas@github ~ $ whoami -->
 
 <p>
-  <img src="./assets/thomas-ascii.svg" width="370" alt="ASCII portrait of Thomas Smith" />
-  <img src="./assets/info-card.svg" width="490" alt="Profile information" />
+  <img src="./assets/thomas-ascii.svg" width="400" alt="ASCII portrait of Thomas Smith" />
+  <img src="./assets/info-card.svg" width="500" alt="Profile information" />
 </p>
 
 <br>
