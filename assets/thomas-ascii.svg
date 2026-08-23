@@ -7,7 +7,7 @@
   <path d="M22 57h83l10 10h80M378 57h-54l-10 10h-55M22 372h80M298 372h80" fill="none" stroke="#60e695" stroke-width="1.2"/>
   <text x="24" y="32" fill="#6fe6a0" class="micro">THS // VISUAL_ID</text>
   <text x="376" y="32" text-anchor="end" fill="#8ba692" class="micro">PORTRAIT</text>
-  <text x="25" y="76" fill="#e6edf3" class="micro">ASCII SCAN / 01</text>
+  
   <g>
       <text x="26" y="82" class="ascii" xml:space="preserve">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</text>
     </g><g>
