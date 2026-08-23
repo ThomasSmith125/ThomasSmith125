@@ -1,6 +1,6 @@
 <div align="center">
 
-<h3>Thomas Smith</h3>
+<h3>THOMAS SMITH</h3>
 
 *Learning deeply, building thoughtfully, and exploring what technology makes possible.*
 
