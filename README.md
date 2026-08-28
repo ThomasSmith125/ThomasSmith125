@@ -3,7 +3,7 @@
 <h3>THOMAS SMITH</h3>
 
 *Learning deeply, building thoughtfully, and exploring what technology makes possible.*
- <br> <br>
+ <br> 
 <h3>TRY - FAIL - SUCCEED - REPEAT </h3>
 
 <br>
