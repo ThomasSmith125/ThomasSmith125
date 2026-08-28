@@ -4,7 +4,7 @@
 
 *Learning deeply, building thoughtfully, and exploring what technology makes possible.*
  <br> <br>
-*TRY - FAIL - SUCCEED - REPEAT*
+<h3>TRY - FAIL - SUCCEED - REPEAT </h3>
 
 <br>
 
