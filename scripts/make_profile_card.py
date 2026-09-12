@@ -36,7 +36,7 @@ def portrait_rows(source: Path) -> str:
     else:
         # Reuse the already-generated portrait when the original local photo is unavailable.
         previous = ElementTree.parse(ROOT / "assets" / "thomas-ascii.svg")
-        ascii_rows = [node.text or "" for node in previous.findall("{http://www.w3.org/2000/svg}text") if node.get("class") == "ascii"]
+        ascii_rows = [node.text or "" for node in previous.iter("{http://www.w3.org/2000/svg}text") if node.get("class") == "ascii"]
     rows = []
     for y, chars in enumerate(ascii_rows):
         rows.append(f'<text x="42" y="{145 + y * 5}" class="ascii" xml:space="preserve">{escape(chars)}</text>')
@@ -48,7 +48,7 @@ def info_rows() -> str:
     for index, (label, value) in enumerate(PROFILE_ROWS):
         if not label and not value:
             continue
-        y = 137 + index * 27
+        y = 160 + index * 24
         prefix = label.ljust(12) if label else "//          "
         output.append(
             f'<text x="420" y="{y}" class="line"><tspan fill="#b79ae6">{escape(prefix)}</tspan><tspan fill="#e9e5f2">  {escape(value)}</tspan></text>'
@@ -88,9 +88,9 @@ def main() -> None:
   <text x="420" y="132" fill="#e9e5f2" class="title">IDENTITY / DATA CARD</text>
   <text x="850" y="132" text-anchor="end" fill="#b79ae6" class="micro">ONLINE</text>
   {info_rows()}
-  <rect x="405" y="300" width="450" height="27" fill="#1b1724" stroke="#44375a"/>
-  <circle cx="424" cy="314" r="5" fill="#9b7bd1"/><circle cx="424" cy="314" r="2" fill="#efe9ff"/>
-  <text x="439" y="318" fill="#c5bbd4" class="micro">STATUS: BUILDING / LEARNING / EXPLORING</text>
+  <rect x="405" y="350" width="450" height="27" fill="#1b1724" stroke="#44375a"/>
+  <circle cx="424" cy="364" r="5" fill="#9b7bd1"/><circle cx="424" cy="364" r="2" fill="#efe9ff"/>
+  <text x="439" y="368" fill="#c5bbd4" class="micro">STATUS: BUILDING / LEARNING / EXPLORING</text>
   <path d="M25 378h100M715 378h160" stroke="#b79ae6" stroke-width="2"/>
 </svg>'''
     OUT.write_text(svg, encoding="utf-8")
