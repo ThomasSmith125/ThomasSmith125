@@ -20,7 +20,7 @@
 
 <!-- thomas@github ~ $ whoami -->
 
-<img src="./assets/profile-card.svg?v=2" width="900" alt="Thomas Smith profile card" />
+<img src="./assets/profile-card.svg?v=3" width="900" alt="Thomas Smith profile card" />
 
 <br>
 
