@@ -25,6 +25,5 @@
 <br>
 
 
-<a href="https://www.instagram.com/thomas__s.m.i.t.h/">Instagram - thomas__s.m.i.t.h</a>
 
 </div>
