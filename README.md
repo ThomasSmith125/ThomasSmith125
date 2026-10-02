@@ -14,13 +14,13 @@
 <br>
 
 <!-- thomas@github ~ $ ./contributions.sh -->
-<img src="./assets/contrib-heatmap.svg?v=3" width="900" alt="GitHub contribution heatmap" />
+<img src="./assets/contrib-heatmap.svg?v=4" width="900" alt="GitHub contribution heatmap" />
 
 <br><br>
 
 <!-- thomas@github ~ $ whoami -->
 
-<img src="./assets/profile-card.svg?v=3" width="900" alt="Thomas Smith profile card" />
+<img src="./assets/profile-card.svg?v=4" width="900" alt="Thomas Smith profile card" />
 
 <br>
 
